@@ -13,6 +13,14 @@
     color: var(--main-color);
 }
 
+.logo img {
+    height: 19px;
+}
+
+.logo {
+padding: 30px 50px 30px 50px;
+}
+
 body {
     display: flex;
     justify-content: center;
