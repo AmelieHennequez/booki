@@ -40,12 +40,12 @@
             </div>
 
             <div>
-                <form method="get" id="searchForm" action="#">
+                <form method="post" id="searchForm" action="">
                     <div id="localisation">
                         <i class="fa-solid fa-location-dot fa-lg"></i>
                     </div>
-                        <input type="text" id="searchText" placeholder="Marseille,France">
-                        <input type="button" value="Rechercher" id="search">
+                        <input type="text" name="searchText" id="searchText" placeholder="Marseille, France">
+                        <input type="submit" value="Rechercher" id="search"> <!--submit en attente de javascript-->
                 </form>
             </div>
         </header>
