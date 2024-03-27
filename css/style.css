@@ -1,5 +1,7 @@
 /****** General ***********/
 * {
+    margin: 0px;
+    padding: 0px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -18,7 +20,30 @@
 }
 
 .logo {
-padding: 30px 50px 30px 50px;
+margin: 30px 50px 30px 50px;
+}
+
+.navigation {
+    display: flex;
+    /* margin-left: 500px; */
+}
+
+nav {
+    display: flex;
+    column-gap: 830px;
+}
+
+.liennavigation {
+    font-size: 19px;
+    margin-left: 68px;
+    padding-top: 20px;
+}
+
+.liennavigation:hover {
+    color: blue;
+    border-top-width: 2px;
+    border-top-color: blue;
+    border-top-style: solid;
 }
 
 body {
