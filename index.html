@@ -40,10 +40,12 @@
             </div>
 
             <div>
-                <form method="get" action="#">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <input type="text" id="recherche">
-                    <input type="button" value="Rechercher">
+                <form method="get" id="searchForm" action="#">
+                    <div id="localisation">
+                        <i class="fa-solid fa-location-dot fa-lg"></i>
+                    </div>
+                        <input type="text" id="searchText" placeholder="Marseille,France">
+                        <input type="button" value="Rechercher" id="search">
                 </form>
             </div>
         </header>
