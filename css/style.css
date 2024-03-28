@@ -216,6 +216,38 @@ a {
     width: 65%;
 }
 
+.hebergementcards {
+    width: 250px;
+    height: 207px;
+}
+
+.hebergement-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+/* .hebergements h3 {
+    margin-bottom: 30px;
+} */
+
+.hebergementcards img {
+    height: 110px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.description-hebergement {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.cardContentMarginTop {
+    margin-top: 5px;
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
