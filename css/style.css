@@ -42,12 +42,15 @@ nav {
     font-size: 19px;
     margin-left: 68px;
     padding-top: 20px;
+    border-top-width: 2px;
+    border-top-color: rgb(255, 255, 255);
+    border-top-style: solid;
 }
 
 .liennavigation:hover {
-    color: blue;
+    color: #0065FC;
     border-top-width: 2px;
-    border-top-color: blue;
+    border-top-color: #0065FC;
     border-top-style: solid;
 }
 
@@ -126,27 +129,29 @@ color:black
     margin-top: 30px;
     display: flex;
     align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+    gap: 20px;
 }
-
-.filterbar h3 {
-margin-right: 20px;
-}
-
 
 .filtertexticon {
     width: auto;
     height: 50px;
     border: solid 2px #D9D9D9;
     border-radius: 25px;
-    margin-right: 20px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .filterbar i {
 display: block;
-padding-left: 20px;
+}
+
+.filtertexticon a {
+    display: flex;
+    gap: 10px;
 }
 
 .filtertexticon:hover {
@@ -178,7 +183,6 @@ a {
 .card {
     background-color: white;
     border-radius: 20px;
-    padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
@@ -216,9 +220,10 @@ a {
     width: 65%;
 }
 
-.hebergementcards {
+.hebergementcards .card {
     width: 250px;
     height: 207px;
+    padding: 5px;
 }
 
 .hebergement-row {
@@ -259,6 +264,7 @@ a {
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
+    padding: 5px;
 }
 
 .populaires-cards img {
@@ -290,7 +296,72 @@ a {
     margin-bottom: 5px;
 }
 
+/***** Activités  *****/
+.activity {
+    padding-top: 60px;
+}
 
+.activity-row {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.activity h3 {
+
+    display: block;
+    padding-left: 33px;
+}
+
+.activitycards {
+    width: 297.5px;
+    height: 439px;
+    padding-top: 30px;
+}
+
+.activitycards img {
+    object-fit: cover;
+    width: 297.5px;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.description-activities {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+/****** Footer  ******/
+
+footer {
+    background-color: #F2F2F2;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    gap: 15px;
+
+}
+
+.blocks {
+    width: 446.67px;
+    height: 163px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.blocks p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.blocks li {
+    font-size: 16px;
+    list-style-type: none;
+    margin-top: 20px;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
