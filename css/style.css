@@ -326,6 +326,10 @@ a {
     border-radius: 20px 20px 0px 0px;
 }
 
+.activitycards .card {
+    box-shadow: 0 3px 15px #0000001A;
+}
+
 .description-activities {
     margin-top: 10px;
     padding-bottom: 10px;
@@ -367,6 +371,14 @@ footer {
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
+
+/* Large devices (less/equal than 1440px) */
+@media (max-width: 1440px) {
+
+}
+
+
+
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
@@ -398,6 +410,10 @@ footer {
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    .activity-row {
+        flex-direction: column;
     }
 }
 
