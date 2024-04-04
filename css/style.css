@@ -220,7 +220,7 @@ a {
     width: 65%;
 }
 
-.hebergementcards .card {
+.hebergementcards  {
     width: 250px;
     height: 207px;
     padding: 5px;
@@ -230,6 +230,7 @@ a {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    gap: 30px;
 }
 
 
@@ -308,7 +309,6 @@ a {
 }
 
 .activity h3 {
-
     display: block;
     padding-left: 33px;
 }
@@ -328,6 +328,7 @@ a {
 
 .activitycards .card {
     box-shadow: 0 3px 15px #0000001A;
+    filter: none;
 }
 
 .description-activities {
