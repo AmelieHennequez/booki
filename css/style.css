@@ -25,12 +25,11 @@ margin: 30px 50px 30px 0px;
 
 .navigation {
     display: flex;
-    /* margin-left: 500px; */
 }
 
 nav {
     display: flex;
-    column-gap: 830px;
+    justify-content: space-between;
 }
 
 #searchForm {
@@ -131,6 +130,11 @@ color:black
     align-items: center;
     font-size: 17px;
     font-weight: bold;
+    gap: 20px;
+}
+
+.filter-buttons {
+    display: flex;
     gap: 20px;
 }
 
@@ -311,17 +315,17 @@ a {
 .activity h3 {
     display: block;
     padding-left: 33px;
+    margin-bottom: 20px;
 }
 
 .activitycards {
     width: 297.5px;
     height: 439px;
-    padding-top: 30px;
 }
 
 .activitycards img {
     object-fit: cover;
-    width: 297.5px;
+    width: 100%;
     height: 380px;
     border-radius: 20px 20px 0px 0px;
 }
@@ -373,15 +377,15 @@ footer {
 
 /****** Media queries ***********/
 
-/* Large devices (less/equal than 1440px) */
-@media (max-width: 1440px) {
-
-}
-
-
-
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+    .filterbar {
+        flex-direction: column;
+        align-items: start;
+    }
+
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -413,12 +417,26 @@ footer {
         font-size: 13px;
     }
 
-    .activity-row {
-        flex-direction: column;
+    .activitycards {
+        width: 100%;
+        height: 270px;
     }
+
+    .activitycards img {
+        width: 100%;
+        height: 200px;
+    }
+
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    
+
+
+    
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
 }
