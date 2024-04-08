@@ -150,6 +150,7 @@ color:black
     border: solid 2px #D9D9D9;
     border-radius: 25px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     padding-right: 20px;
     padding-left: 20px;
@@ -527,11 +528,10 @@ footer {
    .filterbar {
     font-size: 100%;
    }
-
     .filtertexticon {
-        width: 32%;
+        width: 145px;;
     }
-
+    
     .info {
         width: 30px;
         height: 25px;
