@@ -529,9 +529,10 @@ footer {
     font-size: 100%;
    }
     .filtertexticon {
-        width: 145px;;
+        width: 145px;
+        padding-left: 15px;
     }
-    
+
     .info {
         width: 30px;
         height: 25px;
