@@ -62,12 +62,14 @@ h2 {
     background-color: #F2F2F2;
     width: 50px;
     border-radius: 15px 0px 0px 15px;
-    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #localisation i {
     color: black;
-    padding-left: 19px;
+    /* padding-left: 19px; */
 }
 
 #searchForm input[type=text] {
