@@ -69,7 +69,6 @@ h2 {
 
 #localisation i {
     color: black;
-    /* padding-left: 19px; */
 }
 
 #searchForm input[type=text] {
@@ -96,6 +95,7 @@ color:black
 }
 
 .info {
+    display: flex;
     width: 24px;
     height: 24px;
     border: solid #D9D9D9;
@@ -107,8 +107,6 @@ color:black
 
 .info i {
     display: block;
-    padding-left: 10px;
-    padding-top: 10px;
 }
 
 .tooltype {
@@ -143,7 +141,7 @@ color:black
 .filter-buttons {
     width: 100%;
     display: flex;
-    gap: 20px;
+    gap: 10px;
 }
 
 .filtertexticon {
@@ -155,7 +153,7 @@ color:black
     flex-wrap: wrap;
     align-items: center;
     padding-right: 20px;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .filterbar i {
@@ -488,7 +486,7 @@ footer {
     }
 
     #header-content p {
-        font-size: 20px;
+        font-size: 13px;
         margin-top: 5px;
     }
     
@@ -505,7 +503,6 @@ footer {
    }
 
    #searchForm input[type=text] {
-    width: 305px;
     height: 55px;
    }
 
@@ -525,6 +522,7 @@ footer {
 
    .filter-buttons {
     flex-wrap: wrap;
+    width: 100%;
    }
 
    .filterbar {
@@ -532,8 +530,11 @@ footer {
    }
 
     .filtertexticon {
-        width: 115px;
-        padding-left: 15px;
+        width: 35%;
+    }
+
+    .filtertexticon span {
+        font-size: 85%;
     }
 
     .info {
@@ -585,10 +586,18 @@ footer {
 
 
     .activity-row {
+        width: 90%;
         flex-direction: column;
+        padding-left: 15px;
+
     }
 
     .footer-content {
         flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .blocks {
+        padding-left: 0px;
     }
 }
