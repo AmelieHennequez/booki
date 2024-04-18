@@ -54,10 +54,6 @@ nav {
     height: 50px;
 }
 
-h2 {
-    margin-top: 30px;
-}
-
 #localisation {
     background-color: #F2F2F2;
     width: 50px;
@@ -238,8 +234,7 @@ a {
 }
 
 .hebergement-row {
-    display: flex;
-    justify-content: space-between;
+    display: flex; 
     margin-top: 30px;
     gap: 30px;
 }
@@ -309,6 +304,7 @@ a {
 }
 
 /***** Activités  *****/
+
 .activity {
     padding-top: 60px;
 }
@@ -319,7 +315,7 @@ a {
     justify-content: center;
 }
 
-.activity h3 {
+.activity h2 {
     display: block;
     padding-left: 33px;
     margin-bottom: 20px;
