@@ -90,28 +90,6 @@ nav {
 color:black
 }
 
-.info {
-    display: flex;
-    width: 24px;
-    height: 24px;
-    border: solid #D9D9D9;
-    border-radius: 100% 100%;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
-}
-
-.info i {
-    display: block;
-}
-
-.tooltype {
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
 #searchForm button[type=submit] {
     width: 132px;
     height: 50px;
@@ -140,6 +118,10 @@ color:black
     gap: 10px;
 }
 
+.filtertexticon:hover {
+    background-color: #DEEBFF;
+    }
+
 .filtertexticon {
     width: auto;
     height: 50px;
@@ -161,9 +143,29 @@ display: block;
     gap: 10px;
 }
 
-.filtertexticon:hover {
-background-color: #DEEBFF;
+.info {
+    display: flex;
+    width: 24px;
+    height: 24px;
+    border: solid #D9D9D9;
+    border-radius: 100% 100%;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 }
+
+.info i {
+    display: block;
+}
+
+.tooltype {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
 
 body {
     display: flex;
